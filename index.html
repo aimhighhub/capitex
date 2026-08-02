@@ -1070,11 +1070,21 @@ tbody tr:hover td{background:rgba(255,255,255,.03)}
   .hiw-step-card{grid-template-columns:1fr}
   .hiw-step-card:nth-child(even){direction:ltr}
   .hiw-hero{height:200px}
-}@media(max-width: 480px){
+}
+@media(max-width: 480px){
   .nav{ padding: 0 16px; height: 60px; }
+  .nav-logo{font-size:20px;}
   .container, .container-sm{ padding: 0 16px; }
-  .hero-title{ font-size: clamp(32px, 10vw, 44px); }
-  .hero-subtitle{ font-size: 16px; }
+  .hero-content{padding:80px 16px 48px;}
+  .hero-title{ font-size: clamp(32px, 9vw, 40px); line-height:1.05; margin-bottom:18px; }
+  .hero-subtitle{ font-size: 15px; line-height:1.65; max-width:100%; margin-bottom:32px; }
+  .hero-actions{flex-direction:column;align-items:stretch;gap:12px;}
+  .hero-actions .btn{width:100%;}
+  .hero-stats{flex-direction:column;gap:14px;}
+  .hero-trust-strip{font-size:12px;gap:10px;}
+  .hero-tag{font-size:12px;padding:6px 12px;}
+  .hero-grid{display:none;}
+  .hero-orb-3{display:none;}
 }
 </style>
 </head>

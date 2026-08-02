@@ -49,7 +49,7 @@ export default async function handler(req, res) {
       line_items: [{
         price_data: {
           currency,
-          product_data: { name: 'LOInvest deposit' },
+          product_data: { name: 'Capitex deposit' },
           unit_amount: Math.round(amount * 100),
         },
         quantity: 1,

@@ -1,5 +1,5 @@
 -- ============================================================
--- LOInvest — Supabase schema
+-- Capitex — Supabase schema
 -- Run this in Supabase SQL Editor (or via `supabase db push`)
 -- after creating a fresh project. Safe to run once on a clean DB.
 -- ============================================================
